@@ -126,7 +126,11 @@ public class TetherSettings extends SettingsPreferenceFragment
                 (CheckBoxPreference) findPreference(ENABLE_WIFI_AP);
         Preference wifiApSettings = findPreference(WIFI_AP_SSID_AND_SECURITY);
         mUsbTether = (CheckBoxPreference) findPreference(USB_TETHER_SETTINGS);
+
+        // Force remove bluetooth AP option
         mBluetoothTether = (CheckBoxPreference) findPreference(ENABLE_BLUETOOTH_TETHERING);
+        mBluetoothTether.setChecked(false);
+        getPreferenceScreen().removePreference(mBluetoothTether);
 
         ConnectivityManager cm =
                 (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -149,17 +153,6 @@ public class TetherSettings extends SettingsPreferenceFragment
         } else {
             getPreferenceScreen().removePreference(mEnableWifiAp);
             getPreferenceScreen().removePreference(wifiApSettings);
-        }
-
-        if (!bluetoothAvailable) {
-            getPreferenceScreen().removePreference(mBluetoothTether);
-        } else {
-            BluetoothPan pan = mBluetoothPan.get();
-            if (pan != null && pan.isTetheringOn()) {
-                mBluetoothTether.setChecked(true);
-            } else {
-                mBluetoothTether.setChecked(false);
-            }
         }
 
         mProvisionApp = getResources().getStringArray(
