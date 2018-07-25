@@ -672,13 +672,13 @@
     <string name="wifi_p2p_cancel_connect_title" msgid="255267538099324413">"取消邀請？"</string>
     <string name="wifi_p2p_cancel_connect_message" msgid="7477756213423749402">"您要取消連接「<xliff:g id="PEER_NAME">%1$s</xliff:g>」的邀請嗎？"</string>
     <string name="wifi_p2p_delete_group_message" msgid="834559380069647086">"刪除這個群組？"</string>
-    <string name="wifi_tether_checkbox_text" msgid="1847167643625779136">"可攜式 Wi-Fi 熱點"</string>
+    <string name="wifi_tether_checkbox_text" msgid="1847167643625779136">"Wi-Fi 熱點"</string>
     <string name="wifi_tether_starting" msgid="1322237938998639724">"正在開啟熱點…"</string>
     <string name="wifi_tether_stopping" msgid="4835852171686388107">"正在關閉熱點…"</string>
-    <string name="wifi_tether_enabled_subtext" msgid="8948641212931906143">"可攜式無線基地台 <xliff:g id="NETWORK_SSID">%1$s</xliff:g> 已啟用"</string>
+    <string name="wifi_tether_enabled_subtext" msgid="8948641212931906143">"Wi-Fi 熱點 <xliff:g id="NETWORK_SSID">%1$s</xliff:g> 已啟用"</string>
     <string name="wifi_tether_failed_subtext" msgid="1484941858530919002">"可攜式 Wi-Fi 熱點發生錯誤"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7974681394041609308">"設定 Wi-Fi 熱點"</string>
-    <string name="wifi_tether_configure_subtext" msgid="7957547035983257748">"<xliff:g id="NETWORK_SSID">%1$s</xliff:g> <xliff:g id="NETWORK_SECURITY">%2$s</xliff:g> 可攜式 Wi-Fi 熱點"</string>
+    <string name="wifi_tether_configure_subtext" msgid="7957547035983257748">"<xliff:g id="NETWORK_SSID">%1$s</xliff:g> <xliff:g id="NETWORK_SECURITY">%2$s</xliff:g> Wi-Fi 熱點"</string>
     <string name="wifi_tether_configure_ssid_default" msgid="8467525402622138547">"Android 無線基地台"</string>
     <string name="home_settings" msgid="212375129455718176">"主畫面"</string>
     <string name="display_settings_title" msgid="1708697328627382561">"顯示"</string>
@@ -965,7 +965,7 @@
     <string name="tether_settings_title_wifi" msgid="3277144155960302049">"可攜式無線基地台"</string>
     <string name="tether_settings_title_bluetooth" msgid="355855408317564420">"藍牙網絡共享"</string>
     <string name="tether_settings_title_usb_bluetooth" msgid="5355828977109785001">"網絡共享"</string>
-    <string name="tether_settings_title_all" msgid="8356136101061143841">"網絡共享及便攜式熱點"</string>
+    <string name="tether_settings_title_all" msgid="8356136101061143841">"網絡共享及 Wi-Fi 熱點"</string>
     <string name="usb_title" msgid="7483344855356312510">"USB"</string>
     <string name="usb_tethering_button_text" msgid="585829947108007917">"USB 網絡共用"</string>
     <string name="usb_tethering_available_subtext" msgid="156779271296152605">"已連接 USB，選取即可進行網絡共用"</string>
